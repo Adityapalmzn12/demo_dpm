@@ -1,0 +1,43 @@
+{
+  "formId": "employee",
+  "version": 1,
+  "title": "Employee Form",
+  "description": "Please fill out your employment details.",
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "label": "Full name",
+      "required": true
+    },
+    {
+      "id": "emailId",
+      "type": "email",
+      "label": "Email Id",
+      "required": false
+    },
+    {
+      "id": "age",
+      "type": "number",
+      "label": "Age",
+      "min": 18
+    },
+    {
+      "id": "employment",
+      "type": "dropdown",
+      "label": "Employment status",
+      "options": ["Employed", "Student"]
+    },
+    {
+      "id": "joinedOn",
+      "type": "date",
+      "label": "Joined on"
+    },
+    {
+      "id": "agreeTerms",
+      "type": "checkbox",
+      "label": "I agree to the terms",
+      "required": true
+    }
+  ]
+}
